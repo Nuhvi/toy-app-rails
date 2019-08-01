@@ -1,24 +1,22 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Excercise in setting up and deploying Rails apps.
 
-Things you may want to cover:
+# Installation
 
-* Ruby version
+### Prerequisites
 
-* System dependencies
+**[Ruby 2.5.0+](https://www.ruby-lang.org/en/downloads/)**
+**Rails 5.2.0+**
 
-* Configuration
+### Install
 
-* Database creation
+```console
+git clone git@github.com:Nazeh/toy-app-rails.git
+cd toy-app-rails
+```
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+### Run
+```console
+rails server
+```

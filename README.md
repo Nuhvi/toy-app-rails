@@ -1,22 +1,32 @@
-# README
+# Ruby on Rails Toy application
 
-Excercise in setting up and deploying Rails apps.
+Excercise in setting up and deploying Rails apps, following [Michael Hartl](http://www.michaelhartl.com/) tutorial.
 
-# Installation
+## Getting started
 
-### Prerequisites
-
-**[Ruby 2.5.0+](https://www.ruby-lang.org/en/downloads/)**
-**Rails 5.2.0+**
-
-### Install
+To get started with the app, clone the repo and then install the needed gems:
 
 ```console
-git clone git@github.com:Nazeh/toy-app-rails.git
-cd toy-app-rails
+ bundle install --without production
 ```
 
-### Run
+Next, migrate the database:
+
 ```console
-rails server
+ rails db:migrate
 ```
+
+Finally, run the test suite to verify that everything is working correctly:
+
+```console
+ rails test
+```
+
+If the test suite passes, you'll be ready to run the app in a local server:
+
+```console
+ rails server
+```
+
+For more information, see the
+[*Ruby on Rails Tutorial* book](https://www.railstutorial.org/book).
